@@ -3,21 +3,106 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>مجالس النجوم</title>
+  <title>مجالس النجوم للمفروشات</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    header {
+      background: url('https://i.imgur.com/zYIlgBl.jpg') center/cover no-repeat;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    header h1 {
+      font-size: 42px;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+
+    header p {
+      font-size: 20px;
+      margin-top: 15px;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 8px 15px;
+      border-radius: 10px;
+    }
+
+    .cta-buttons {
+      margin-top: 30px;
+    }
+
+    .cta-buttons a {
+      margin: 10px;
+    }
+
+    section.features {
+      background-color: #1a1a1a;
+      padding: 40px 20px;
+    }
+
+    section.features h2 {
+      color: #fdd835;
+      margin-bottom: 30px;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+    }
+
+    .feature-box {
+      background-color: #222;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    .feature-box h3 {
+      color: #fdd835;
+      margin-bottom: 10px;
+    }
+  </style>
 </head>
 <body>
 
-  <h1>مرحبًا بكم في مجالس النجوم للمفروشات</h1>
-  <p>تفصيل مجالس عربية فاخرة - تصميم حسب الطلب - توصيل داخل وخارج الأحساء </p>
+  <header>
+    <h1>مجالس النجوم للمفروشات</h1>
+    <p>تفصيل مجالس عربية وكنب حديث بأعلى جودة</p>
+    <div class="cta-buttons">
+      <a class="button" href="gallery.html">📸 معرض الأعمال</a>
+      <a class="button" href="https://wa.me/966581559124" target="_blank">📱 اطلب الآن</a>
+    </div>
+  </header>
 
   <nav>
     <a href="index.html">الرئيسية</a> |
-    <a href="gallery.html">معرض الأعمال</a> |
+    <a href="gallery.html">معرض الصور</a> |
     <a href="contact.html">تواصل معنا</a>
   </nav>
 
-  <a class="button" href="https://wa.me/966581559124" target="_blank">تواصل عبر واتساب</a>
+  <section class="features">
+    <h2>لماذا تختار مجالس النجوم؟</h2>
+    <div class="feature-grid">
+      <div class="feature-box">
+        <h3>✂️ تفصيل حسب الطلب</h3>
+        <p>نقوم بتفصيل المجالس والكنب حسب المقاسات والتصميم المطلوب</p>
+      </div>
+      <div class="feature-box">
+        <h3>🚚 توصيل داخل وخارج الرياض</h3>
+        <p>نوفر خدمة التوصيل والتركيب لجميع مناطق المملكة</p>
+      </div>
+      <div class="feature-box">
+        <h3>🎨 أقمشة فاخرة</h3>
+        <p>مجموعة متنوعة من الألوان والنقشات الفخمة</p>
+      </div>
+    </div>
+  </section>
 
 </body>
 </html>
