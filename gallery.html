@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>معرض مجالس النجوم</title>
+  <style>
+    body {
+      background: #111;
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #fdd835;
+      margin-bottom: 30px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .item {
+      background: #222;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .item img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .item h3 {
+      margin-top: 10px;
+      color: #fdd835;
+    }
+
+    a.back {
+      display: inline-block;
+      margin-top: 30px;
+      color: #25D366;
+      text-decoration: none;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h1>معرض مجالس النجوم</h1>
+
+  <div class="gallery">
+    <div class="item">
+      <img src="https://i.imgur.com/zYIlgBl.jpg" alt="مجلس 1" />
+      <h3>مجلس أرضي مودرن</h3>
+    </div>
+    <div class="item">
+      <img src="https://i.imgur.com/r9Ct6c8.jpg" alt="مجلس 2" />
+      <h3>مجلس كلاسيكي فاخر</h3>
+    </div>
+    <div class="item">
+      <img src="https://i.imgur.com/fyoHvLu.jpg" alt="مجلس 3" />
+      <h3>زاوية استقبال أنيقة</h3>
+    </div>
+  </div>
+
+  <a class="back" href="index.html">⬅️ العودة للرئيسية</a>
+</body>
+</html>
