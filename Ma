@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>مجالس النجوم للمفروشات</title>
+<style>
+  body {
+    margin: 0; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #111; /* أسود */
+    color: #d4af37; /* ذهبي */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.3em;
+  }
+  p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 1.5em;
+  }
+  .contact {
+    font-size: 1.1rem;
+    margin-top: 1em;
+  }
+  .whatsapp-button {
+    background-color: #25D366;
+    color: white;
+    border: none;
+    padding: 0.8em 1.5em;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s ease;
+  }
+  .whatsapp-button:hover {
+    background-color: #1ebe5b;
+  }
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1rem;
+      padding: 0 10px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<h1>مجالس النجوم للمفروشات</h1>
+<p>نحن مؤسسة متخصصون في تفصيل وبيع أحدث موديلات المجالس العربية.</p>
+
+<div class="contact">
+  <p>للتواصل:</p>
+  <a class="whatsapp-button" href="https://wa.me/966581559124" target="_blank" rel="noopener">
+    🟢 تواصل عبر واتساب
+  </a>
+</div>
+
+</body>
+</html>
